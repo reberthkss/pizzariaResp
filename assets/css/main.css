@@ -1,0 +1,154 @@
+.outra{
+    background-color: #dd4132;
+    height: 55.968px;
+    box-shadow: 1px 1px 10px grey;
+     
+}
+.principalPizza{
+    background-color:#e1e1e1;
+    
+}
+
+#companyName{
+    color: rgb(255, 255, 255);
+    font: arial;
+    font-style: italic;
+}
+
+#searchBar{
+    border: 0px;
+    border-radius: 2px;
+    opacity: 0.5;
+    padding-left:40px;
+}
+#searchBar1{
+    margin:0;
+    padding:0;
+    
+}
+#menuNav{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#foto{
+    display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    background-color:black;
+}
+#username{
+    color:white;
+        
+}
+
+#search{
+    position: absolute;
+    margin-top: 5px;
+    margin-left:15px;
+
+}
+
+.iconOption{
+    margin:0;
+    padding: 16px 0px;
+}
+.options{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-style: italic;
+    
+}
+
+.page{
+    background-color:white;
+}
+.larguraPage{
+    width:432px;
+}
+
+.tituloBloco{
+    margin-top:17px;
+    margin-left:10px;
+    padding:0px;
+}
+
+.pizza{
+    padding-top:50px;
+    padding-bottom:30px;
+    padding-left:15px;
+    border-bottom: 0.5px solid #e1e1e1;
+}
+
+
+.iconPizza{
+    float:left;
+}
+
+.nomePizza{
+    display:inline-block;
+    color:#dd4132; 
+    margin-left:10px;
+}
+
+.descricaoPizza{
+    font-size:14px;
+    margin-left: 10px;
+}
+
+.distanciaPage{
+    margin-left:130px;
+}
+
+.pedidos{
+    padding-top:40px;
+}
+
+.novoPedido{
+    height:100px;
+    margin-top: 10px;
+}
+
+.nomeMotoqueiro{
+    padding:5px 10px;
+}
+.statusMotoqueiro{
+    padding:5px 15px;
+}
+
+.title{
+    padding: 10px 5px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:block;
+
+}
+.sub-title{
+    padding: 10px 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    display:block;
+
+}
+.cliente{
+    padding-top:50px;
+    padding-bottom:30px;
+   
+    border-bottom: 0.5px solid #e1e1e1;
+}
+.iconCliente{
+    float:left;
+    width: 50px;
+    height: 50px;
+}
+
+
+.nomeCliente{
+    display:inline-block;
+    color:#dd4132; 
+    margin-left:10px;
+}
