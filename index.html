@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>sitePizzaria</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <section id="page">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-search" style="background-color: #dd4132;width: 100%;">
+            <div class="container"><a class="navbar-brand float-left" href="#" style="background-image: url(&quot;assets/img/icon-mobile.png&quot;);background-position: center;background-size: auto;background-repeat: no-repeat;width: 56px;height: 56px;"></a><button data-toggle="collapse"
+                    class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <form class="form-inline border rounded mr-auto" target="_self" style="background-color: #e1e1e1;width: 50%;">
+                        <div class="form-group" style="width: 100%;"><label for="search-field" style="padding: 2%;"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search" placeholder="Digite aqui a opção a ser procurada" style="width: 90%;"></div>
+                    </form>
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">#nameuser</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-light navbar-expand-md">
+            <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1" style="width: 100%;">
+                    <ul class="nav navbar-nav" style="font-size: 20px;width: 100%;">
+                        <li class="nav-item d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex align-items-baseline align-items-md-center align-items-xl-center" role="presentation" id="cadastrarPizza" style="width: 200px;"><i class="fas fa-plus-circle" style="padding: 2%;"></i><a class="nav-link active" href="#">Adicionar Pizza</a></li>
+                        <li class="nav-item d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex align-items-baseline align-items-md-center align-items-xl-center"
+                            role="presentation" id="editarPizza" style="margin-left: 1%;width: 200px;"><i class="fas fa-edit" style="padding: 2%;"></i><a class="nav-link active" href="#">Editar Pizza</a></li>
+                        <li class="nav-item d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex align-items-baseline align-items-md-center align-items-xl-center"
+                            role="presentation" id="cadastrarCliente" style="margin-left: 1%;width: 200px;"><i class="fas fa-plus-circle" style="padding: 2%;"></i><a class="nav-link active" href="#">Adicionar Cliente</a></li>
+                        <li class="nav-item d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex align-items-baseline align-items-md-center align-items-xl-center"
+                            role="presentation" id="editarCliente" style="margin-left: 1%;width: 200px;"><i class="fas fa-edit" style="padding: 2%;"></i><a class="nav-link active" href="#">Editar Cliente</a></li>
+                        <li class="nav-item d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex align-items-baseline align-items-md-center align-items-xl-center"
+                            role="presentation" id="novoPedido" style="margin-left: 1%;width: 200px;"><i class="fas fa-plus-circle" style="padding: 2%;"></i><a class="nav-link active" href="#">Adicionar Pedido</a></li>
+                        <li class="nav-item d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex align-items-baseline align-items-md-center align-items-xl-center"
+                            role="presentation" id="editarPedido" style="margin-left: 1%;width: 200px;"><i class="fas fa-edit" style="padding: 2%;"></i><a class="nav-link active" href="#">Editar Pedido</a></li>
+                        <li class="nav-item d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex align-items-baseline align-items-md-center align-items-xl-center"
+                            role="presentation" id="despacharPedido" style="margin-left: 1%;width: 250px;"><i class="fas fa-truck" style="padding: 2%;"></i><a class="nav-link active" href="#">Despachar Pedido</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="app">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="pizzasCadastradas">
+                            <h4>Pizzas cadastradas</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="clientesCadastrados">
+                            <h4>Pedidos</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="pedidosDiv">
+                            <h4>Clientes</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/29e79b8dae.js"></script>
+</body>
+
+</html>
