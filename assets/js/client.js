@@ -69,55 +69,56 @@ let auxSelect = 0;
 let buttonOk = true;
 
 window.onload = () => {
-
-    let secondPage = document.getElementById("secondPage");
-    let cadastrarPizza = document.getElementById("cadastrarPizza");
-    let editarPizza = document.getElementById("editarPizza");
-    let cadastrarCliente = document.getElementById("cadastrarCliente");
-    let editarCliente = document.getElementById("editarCliente");
-    let novoPedido = document.getElementById("novoPedido");
-    let despacharPedido = document.getElementById("despacharPedido");
-    let editarPedido = document.getElementById("editarPedido");
-    let menuIcon = document.getElementById("menuNav");
-
-
-
-    cadastrarPizza.style.cursor = "pointer";
-    editarPizza.style.cursor = "pointer";
-    cadastrarCliente.style.cursor = "pointer";
-    editarCliente.style.cursor = "pointer";
-    novoPedido.style.cursor = "pointer";
-    despacharPedido.style.cursor = "pointer";
-    editarPedido.style.cursor = "pointer";
-    menuIcon.style.cursor = "pointer";
-
-    cadastrarPizza.onclick = () => {
-        newPage("cadastrarPizza");
-    }
-
-    editarPizza.onclick = () => {
-        newPage('editarPizza');
-    }
-
-    cadastrarCliente.onclick = () => {
-        newPage("cadastrarCliente");
-    }
-
-    editarCliente.onclick = () => {
-        newPage("editarCliente");
-    }
-
-    novoPedido.onclick = () => {
-        newPage("novoPedido");
-    }
-
-    despacharPedido.onclick = () => {
-        newPage("despacharPedido");
-    }
-
-    editarPedido.onclick = () => {
-        newPage("editarPedido");
-    }
+    /*
+       let secondPage = document.getElementById("secondPage");
+       let cadastrarPizza = document.getElementById("cadastrarPizza");
+       let editarPizza = document.getElementById("editarPizza");
+       let cadastrarCliente = document.getElementById("cadastrarCliente");
+       let editarCliente = document.getElementById("editarCliente");
+       let novoPedido = document.getElementById("novoPedido");
+       let despacharPedido = document.getElementById("despacharPedido");
+       let editarPedido = document.getElementById("editarPedido");
+       let menuIcon = document.getElementById("menuNav");
+   
+   
+   
+       cadastrarPizza.style.cursor = "pointer";
+       editarPizza.style.cursor = "pointer";
+       cadastrarCliente.style.cursor = "pointer";
+       editarCliente.style.cursor = "pointer";
+       novoPedido.style.cursor = "pointer";
+       despacharPedido.style.cursor = "pointer";
+       editarPedido.style.cursor = "pointer";
+       menuIcon.style.cursor = "pointer";
+   
+       cadastrarPizza.onclick = () => {
+           newPage("cadastrarPizza");
+       }
+   
+       editarPizza.onclick = () => {
+           newPage('editarPizza');
+       }
+   
+       cadastrarCliente.onclick = () => {
+           newPage("cadastrarCliente");
+       }
+   
+       editarCliente.onclick = () => {
+           newPage("editarCliente");
+       }
+   
+       novoPedido.onclick = () => {
+           newPage("novoPedido");
+       }
+   
+       despacharPedido.onclick = () => {
+           newPage("despacharPedido");
+       }
+   
+       editarPedido.onclick = () => {
+           newPage("editarPedido");
+       }
+       */
 
     getPizzaCadastradas();
     getClientesCadastrados();
